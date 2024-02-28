@@ -2,7 +2,6 @@ function extractClassName(sessionTitle) {
   let array = sessionTitle.split(" ");
   let month = "";
   let year = 0;
-
   if (array[2].length === 4 && array[2][0] === "2") {
     year = array[2];
   }
@@ -50,7 +49,6 @@ function extractClassName(sessionTitle) {
     }
   }
   if (year != 0 && month != "") {
-    console.log("class", year + "-" + month);
     return year + "-" + month;
   } else return null;
 }
