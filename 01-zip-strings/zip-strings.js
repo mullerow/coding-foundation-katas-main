@@ -48,8 +48,8 @@ function zipStrings(strA, strB) {
 
 function zipStrings(strA, strB) {
   let result = "";
-  arrA = strA.split("");
-  arrB = strB.split("");
+  let arrA = strA.split("");
+  let arrB = strB.split("");
   let delta = Math.abs(strA.length - strB.length);
   if (strA.length >= strB.length) {
     for (let x = strA.length - delta; x < strA.length; x++) {
