@@ -6,6 +6,7 @@ describe("Filter API data", function () {
       price: 0,
       title: "",
     },
+
     {
       price: 0,
       tags: [],
